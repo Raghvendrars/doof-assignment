@@ -1,0 +1,506 @@
+.doof-text {
+    position: absolute;
+    width: 152px;
+    height: 59px;
+    left: 150px;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #F7D832;
+}
+
+.login-text {
+    position: absolute;
+    width: 71px;
+    height: 29px;
+    left: 140px;
+    top: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.top-bubble-div {
+    width: 100%;
+    height: 220px;
+}
+
+.login-div {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.form-control {
+    background: #F0F0F0;
+    border-radius: 5px;
+    height: 40px;
+    width: 40%;
+}
+
+.lable-email {
+    position: absolute;
+    left: 0%;
+    right: 89.75%;
+    top: 0%;
+    bottom: 77.92%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    /* Light */
+    color: #A5A5A5;
+}
+
+.login-form {
+    padding: 33px;
+}
+
+.frgt-pass {
+    display: flex;
+}
+
+.frgt-pass-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.form-check-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #333333;
+}
+
+.btn {
+    width: 40%;
+    border: none;
+    background: #F7D832;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* right side */
+
+.big-bubble {
+    position: fixed;
+    width: 1124px;
+    height: 1124px;
+    border-radius: 50%;
+    right: -230px;
+    top: -280px;
+    background: #FFE999;
+}
+
+.girl-svg {
+    position: absolute;
+    width: 538px;
+    height: 374px;
+    left: 300px;
+    top: 370px;
+    /* bottom: -1000px; */
+}
+
+.bubble-one {
+    position: fixed;
+    width: 510px;
+    height: 510px;
+    left: -255px;
+    border-radius: 50%;
+    top: -255px;
+    background: #F8F8F8;
+}
+
+.btn-class>button {
+    float: right;
+    right: 150px;
+    top: 100px;
+    /* left: 300px; */
+    width: 200px;
+    height: 40px;
+    position: absolute;
+}
+
+.title-text>h1 {
+    position: absolute;
+    width: 516px;
+    height: 44px;
+    float: right;
+    right: 150px;
+    top: 223px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 44px;
+    /* identical to box height */
+    text-align: right;
+    /* Dark */
+    color: #333333;
+}
+
+.title-text>h2 {
+    position: absolute;
+    width: 580px;
+    height: 44px;
+    float: right;
+    right: 150px;
+    top: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    /* Dark */
+    color: #333333;
+}
+
+.footer-bubble {
+    position: fixed;
+    width: 510px;
+    height: 510px;
+    left: 403px;
+    border-radius: 50%;
+    top: 700px;
+    background: #F8F8F8;
+}
+
+.footer-texts {
+    width: 50%;
+    float: left;
+    left: 140px;
+    top: 230px;
+    display: flex;
+    position: relative;
+}
+
+.footer-texts>h6 {
+    width: 150px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    /* Dark */
+    color: #333333;
+}
+
+.footer-texts>a {
+    list-style: none;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .top-bubble-div {
+        
+        width: 100%;
+        height: 220px;
+    }
+    
+    .login-div {
+        
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: auto;
+    }
+    
+    .form-control {
+       
+        background: #F0F0F0;
+        border-radius: 5px;
+        height: 40px;
+        width: 50%;
+    }
+      
+    .big-bubble {
+        position: absolute;
+        width:900px;
+        height: 900px;
+        border-radius: 50%;
+        left: 25px;
+        right: 0px;
+        top: 10px;
+        background: #FFE999;
+    }
+    
+    .girl-svg {
+        /* display: none; */
+        position: absolute;
+        width: 80%;
+        height: auto;
+        left: 20%;
+        top: 330px;
+        bottom: 100px;
+    }
+    .girl-svg>svg{
+        width: 500px;
+        height: 500px;
+    }
+    
+    .bubble-one {
+        position: absolute;
+        width: 510px;
+        height: 510px;
+        left: -255px;
+        border-radius: 50%;
+        top: -255px;
+        background: #F8F8F8;
+    }
+    .btn-class{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-class>button {
+        float: right;
+        right: 40%;
+        top: 100px;
+        /* left: 300px; */
+        width: 200px;
+        height: 43px;
+        position: absolute;
+    }
+    
+    .title-text>h1 {
+        position: absolute;
+        width: 70%;
+        height: 44px;
+        text-align: center;
+        right: 140px;
+        top: 223px;
+        
+    }
+    
+    .title-text>h2 {
+        position: absolute;
+        width: 70%;
+        height: 44px;
+        float: right;
+        right: 140px;
+        top: 290px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .footer-bubble {
+        display: none;
+    }
+    
+    .footer-texts {
+        position:relative;
+        width: 70%;
+        text-align: center;
+        top: 1000px;
+        padding-bottom: 30px;
+        display: flex;
+        
+    }
+    
+    .footer-texts>h6 {
+        width: 50%;
+        float: left;
+        text-align: center;
+        height: 22px;
+        margin-left: 0%;
+        font-size: 16px;
+        
+    }
+    
+    .footer-texts>a {
+        list-style: none;
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+
+@media screen and (max-width: 600px) {
+    .top-bubble-div {
+        width: 100%;
+        height: 280px;
+    }
+    .login-text {
+        position: absolute;
+        width: 71px;
+        height: 29px;
+        left: 80px;
+        top: 270px;
+    }
+    .bubble-one {
+        position: absolute;
+        width: 510px;
+        height: 510px;
+        left: -255px;
+        border-radius: 50%;
+        top: -255px;
+        background: #F8F8F8;
+    }
+    .login-div {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-right: auto;
+    }
+    .form-control {
+        background: #F0F0F0;
+        border-radius: 5px;
+        height: 40px;
+        width: 93%;
+    }
+    .lable-email {
+        position: absolute;
+        left: 0%;
+        right: 89.75%;
+        top: 0%;
+        bottom: 77.92%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        /* Light */
+        color: #A5A5A5;
+    }
+    .login-form {
+        padding: 33px;
+    }
+    .frgt-pass {
+        display: block;
+    }
+    .frgt-pass-text{
+        margin-left: 10%;
+        font-size: 16px;
+        margin-top: 14px;
+        font-weight: normal;
+    }
+    .form-check-label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        color: #333333;
+    }
+    .btn {
+        width: 82%;
+        border: none;
+        background: #F7D832;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #333333;
+    }
+    .fw-bold {
+        font-weight: bold;
+    }
+    .big-bubble {
+        /* display: none; */
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        top: 250px;
+        left: 15px;
+        border-radius: 50%;
+    }
+    .girl-svg {
+        /* display: none; */
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 10px;
+        top: 270px;
+        bottom: 100px;
+    }
+    .girl-svg>svg{
+        width: 400px;
+        height: 400px;
+    }
+    /* footer */
+    
+    .title-text{
+        top:10px;
+        width:100%;
+        position:absolute;
+    }
+    
+    .title-text>h1 {
+        position: absolute;
+        width: 516px;
+        height: 44px;
+        float: left;
+        text-align: center;
+        left: -30px;
+        top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 44px;
+        color: #333333;
+    }
+    .title-text>h2 {
+        position: absolute;
+        width: 90%;
+        height: auto;
+        left: 0px;
+        top: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #333333;
+    }
+
+    .footer-texts {
+        /* display: none; */
+        width: 100%;
+        float: left;
+        left: 20px;
+        text-align: center;
+        top: 330px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        position: relative;
+    }
+    .footer-texts>h6 {
+        width: 50%;
+        float: left;
+        font-size: 16px;
+        line-height: 22px;
+        color: #333333;
+    }
+    .footer-texts>a {
+        list-style: none;
+    }
+    .footer-bubble {
+        display: none;
+    }
+    .btn-class>button {
+        float: right;
+        right: 150px;
+        top: 10px;
+        /* left: 300px; */
+        width: 200px;
+        height: 40px;
+        position: absolute;
+    }
+}
